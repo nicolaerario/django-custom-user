@@ -25,7 +25,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    #Local apps
+    # Local apps
     'users.apps.UsersConfig',
 ]
 
@@ -110,4 +110,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-AUTH_USER_MODEL = 'users.CustomUser' #set the custom users model
+AUTH_USER_MODEL = 'users.CustomUser'  # set the custom users model
