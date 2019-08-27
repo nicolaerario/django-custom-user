@@ -8,7 +8,8 @@
 
 ### ToDo:
 
-- [ ] add templates for user authentication
+- [x] add templates for user authentication
 - [ ] add .env example file
 - [ ] add test
 - [ ] add deploy configurations
+- [ ] add first installation how to
