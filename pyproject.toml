@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "django-custom-user"
+version = "0.2.0"
+description = "Django with custom-users app"
+authors = ["Nicola Erario <nicola.erario@gmail.com>"]
+license = "Mit"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+django = "^3.0.2"
+python-dotenv = "^0.10.3"
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.4.4"
+black = "^19.10b0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
